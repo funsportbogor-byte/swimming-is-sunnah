@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#075985">
+  <title>Swimming Is Sunnah</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+
+    header {
+      background: linear-gradient(135deg, #075985, #0e7490);
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    .logo {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 25px;
+      margin: 0;
+    }
+
+    header p {
+      margin: 9px 0 0;
+      font-size: 14px;
+      opacity: .9;
+    }
+
+    main {
+      max-width: 650px;
+      margin: 25px auto;
+      padding: 0 16px;
+    }
+
+    .welcome {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .welcome h2 {
+      font-size: 21px;
+      margin-bottom: 7px;
+    }
+
+    .welcome p {
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    .role {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 16px;
+      box-shadow: 0 3px 12px rgba(0,0,0,.05);
+    }
+
+    .role h3 {
+      margin: 0 0 7px;
+      font-size: 18px;
+    }
+
+    .role p {
+      color: #64748b;
+      font-size: 13px;
+      margin: 0 0 15px;
+      line-height: 1.5;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    a {
+      display: block;
+      background: #e0f2fe;
+      color: #075985;
+      padding: 13px 10px;
+      text-align: center;
+      border-radius: 9px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background: #bae6fd;
+    }
+
+    .coach a {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .parent {
+      border: 1px solid #e2e8f0;
+    }
+
+    .coming {
+      background: #f1f5f9;
+      color: #64748b;
+      padding: 13px;
+      border-radius: 9px;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+      font-size: 12px;
+    }
+
+    @media(max-width: 380px) {
+      .menu { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🏊</div>
+  <h1>SWIMMING IS SUNNAH</h1>
+  <p>Belajar Renang • Sehat • Disiplin • Berkarakter</p>
+</header>
+
+<main>
+
+  <div class="welcome">
+    <h2>Selamat Datang</h2>
+    <p>Silakan pilih akses sesuai peran Anda.</p>
+  </div>
+
+  <section class="role">
+    <h3>👨‍💼 ADMIN</h3>
+    <p>Pengelolaan peserta, jadwal latihan, kuota, dan rapor.</p>
+
+    <div class="menu">
+      <a href="https://script.google.com/macros/s/AKfycbyADvQflCAzp4tKLFKiGeNiSYFnHEHR6hEr-6fmNm5XBUWqDOYlBHFCb4zWIYS4a22b/exec" target="_blank">Pendaftaran</a>
+
+      <a href="https://script.google.com/macros/s/AKfycbwUZaGICG79rAH_vIWeGCn8jTvW5OyjRFlf6CVj0Z1YxvZDV8YdMTI3dMsuyB8AXDv-MA/exec" target="_blank">Admin Jadwal</a>
+
+      <a href="https://script.google.com/macros/s/AKfycbwhHac3yRW4DJRzZval68nV17lRTIMgCMeLTu7yOm6eQQTWitjikbMM4IomecUJtId5/exec" target="_blank">Monitoring Kuota</a>
+
+      <a href="https://script.google.com/macros/s/AKfycbxiOHReGSkuHWzjj4MlKkO1lVgVXj3UfqFURn5GPQGmUPBmYbASHDwHV4vWLjA2Pgfg/exec" target="_blank">Rapor Renang</a>
+    </div>
+  </section>
+
+  <section class="role coach">
+    <h3>🏊 PELATIH</h3>
+    <p>Masuk ke sistem penilaian dan pengisian rapor peserta.</p>
+
+    <div class="menu">
+      <a href="https://script.google.com/macros/s/AKfycbxiOHReGSkuHWzjj4MlKkO1lVgVXj3UfqFURn5GPQGmUPBmYbASHDwHV4vWLjA2Pgfg/exec" target="_blank">Login Pelatih</a>
+    </div>
+  </section>
+
+  <section class="role parent">
+    <h3>👨‍👩‍👧 ORANG TUA</h3>
+    <p>Melihat jadwal latihan dan perkembangan kemampuan renang anak.</p>
+
+    <div class="coming">
+      Login Orang Tua sedang disiapkan.
+      <br>
+      Menggunakan ID Siswa dan nomor HP terdaftar.
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Swimming Is Sunnah<br>
+  Sistem Informasi Peserta dan Latihan Renang
+</footer>
+
+</body>
+</html>
